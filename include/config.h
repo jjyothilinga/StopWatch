@@ -12,14 +12,14 @@
 *----------------------------------------*/
 
 #define MHz_64					(64000000UL)	// Hz
-#define MHz_32					(32000000UL)	// Hz
+#define MHz_16					(16000000UL)	// Hz
 #define MHz_10					(10000000UL)	// Hz
 
 /*----------------------------------------
 *	OSCILLATOR CONFIG
 *----------------------------------------*/
 
-#define SYSTEM_CLOCK			(MHz_64)	
+#define SYSTEM_CLOCK			(MHz_16)	
 
 
 /*----------------------------------------
@@ -65,7 +65,7 @@ enum
 /*----------------------------------------
 *	Display module configuration
 *----------------------------------------*/
-#define __DISPLAY_TEST__
+//#define __DISPLAY_TEST__
 #define MAX_MSG 7
 //#define COMMON_CATHODE
 

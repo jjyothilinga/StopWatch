@@ -54,6 +54,7 @@ void APP_init( void )
 	UINT8 i;
 
 	APP_resetDisplayBuffer();
+	DigitDisplay_updateBuffer(app.displayBuffer);
 
 	app.state = HALT_STATE;
 

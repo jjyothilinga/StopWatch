@@ -110,7 +110,7 @@ void BRD_init(void)
 				OSCTUNEbits.PLLEN = 1;	//PLL Enable
 		break;
 		
-		case MHz_32:
+		case MHz_16:
 				OSCCON = 0X70; 		//internal oscillator 32MHz
 				OSCTUNEbits.PLLEN = 0;	//PLL Enable
 		break;

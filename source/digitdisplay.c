@@ -440,12 +440,13 @@ static void writeToDisplayPort( UINT8 value )
 #else
 static void writeToDisplayPort( UINT8 value )
 {
+/*
 	DIGIT_SEL_A = 0;		//switch off display
 	DIGIT_SEL_B = 0;
 	DIGIT_SEL_C = 0;
 	DIGIT_SEL_D = 0;
 
-	
+*/	
 	PORTC = 0;
 	Delay10us(1);
 	DISPLAY_PORT = value;
